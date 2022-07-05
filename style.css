@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.top-half-width {
+    width: 50%;
+    padding: 5%;
+
+}
+
+.down-half-width {
+    width: 50%;
+    padding: 5%;
+}
+
+.down-half-width img {
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.top-section {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.orange-colour {
+    color: orange;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(241, 104, 79), rgb(255, 64, 50));
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.about-me {
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+}
+
+.about-image img {
+    width: 62%;
+    padding-left: 100px;
+
+}
+
+.second-about p {
+    padding-bottom: 20px;
+}
+
+
+
+.my-recipies {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.recipie-item h2 {
+    color: tomato;
+}
+
+.recipie-item p {
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.recipie-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+.recipie-item img {
+    width: 100%;
+}
+
+.flex-recipies {
+    display: flex;
+
+}
+
+.recipies-section {
+    margin-bottom: 200px;
+}
+
+.follower-section {
+    padding-bottom: 120px;
+}
+
+.follower-width {
+    margin-right: 10%;
+    margin-left: 12%;
+}
+
+.follower-width h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.flex-followers {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    align-items: center;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    padding: 30px;
+    line-height: 10px;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 120px;
+
+}
+
+.footer span {
+    color: tomato;
+}
+
+footer h1 {
+    color: rgba(250, 235, 215, 0.562);
+}
+
+.footer p {
+    color: white;
+}
